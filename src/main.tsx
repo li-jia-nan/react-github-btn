@@ -5,4 +5,6 @@ import './index.scss';
 
 const root = document.getElementById('root')!;
 
-ReactDOM.createRoot(root).render(<App />);
+ReactDOM.createRoot(root).render(
+  <App type="stargazers" namespace="ant-design" repo="ant-design" />
+);
